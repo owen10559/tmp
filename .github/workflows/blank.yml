@@ -53,7 +53,7 @@ jobs:
           git config user.email owen10559@qq.com
       
       - name: run 7
-        run: git merge --allow-unrelated-histories dev
+        run: git checkout dev
         
       - name: run 8
-        run: git push
+        run: git push --force origin dev:main

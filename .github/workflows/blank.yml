@@ -36,7 +36,7 @@ jobs:
         run: git branch -r
 
       - name: run 5
-        run: git branch -b main
+        run: git checkout -b main
         
       - name: run 6
         run: git branch

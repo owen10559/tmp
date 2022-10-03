@@ -42,4 +42,6 @@ jobs:
         run: git branch
 
       - name: run 7
-        run: git pull origin main
+        run: |
+          git config pull.rebase false
+          git pull origin main

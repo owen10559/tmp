@@ -33,7 +33,7 @@ jobs:
         run: pwd
         
       - name: run 4
-        run: git branch -r
+        run: git branch --all
         
       - name: run 7
         run: git pull origin main:main

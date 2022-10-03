@@ -35,6 +35,9 @@ jobs:
       - name: run 4
         run: git branch --all
         
+      - name: run 4.1
+        run: git remote -v
+        
       - name: run 5
         run: git checkout -b main origin/main
         

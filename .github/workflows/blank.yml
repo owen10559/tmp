@@ -32,6 +32,9 @@ jobs:
       - name: run 3
         run: pwd
         
+      - name: run 3.1
+        run: git fetch origin
+        
       - name: run 4
         run: git branch --all
         

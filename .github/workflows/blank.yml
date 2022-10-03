@@ -39,7 +39,7 @@ jobs:
         run: git fetch --all
         
       - name: run 7
-        run: git pull --all
+        run: git pull origin main
         
       - name: run 6
         run: git branch

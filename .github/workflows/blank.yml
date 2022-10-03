@@ -43,3 +43,6 @@ jobs:
         
       - name: run 6
         run: git branch
+        
+      - name: run 8
+        run: git push origin main

@@ -46,7 +46,12 @@ jobs:
         
       - name: run 6
         run: git branch
-         
+       
+      - name: run 6.5
+        run: |
+          git config user.name Owen
+          git config user.email owen10559@qq.com
+      
       - name: run 7
         run: git merge --allow-unrelated-histories dev
         

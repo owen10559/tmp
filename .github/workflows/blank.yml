@@ -56,4 +56,4 @@ jobs:
         run: git checkout dev
         
       - name: run 8
-        run: git push --force origin dev:main
+        run: git push origin dev:main

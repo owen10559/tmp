@@ -47,3 +47,8 @@ jobs:
       - name: run 6
         run: git branch
          
+      - name: run 7
+        run: git merge dev
+        
+      - name: run 8
+        run: git push
